@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Secrets and credentials (NEVER commit)
+.env
+.env.*
+!.env.example
+credentials/
+auth/
+*.pem
+*.key
+
+# Runtime data and state (contains user messages, phone numbers, session state)
+data/
+logs/
+media/
+recordings/
+recordings-FR/
+documents/
+outbox/
+*.db
+*.db-*
+*.sqlite
+
+# Local PM2 config with real values (use ecosystem.config.example.js as a template)
+ecosystem.config.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Misc local files
+*.txt
+cookies.txt

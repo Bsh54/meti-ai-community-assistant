@@ -1,0 +1,28 @@
+{
+  "name": "meti-ai-community-assistant",
+  "version": "1.0.0",
+  "description": "A grounded WhatsApp assistant that turns community group data into a searchable memory and answers members' questions accurately.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --env-file=.env bot.js",
+    "curator": "node --env-file=.env curator.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "assistant",
+    "chatbot",
+    "baileys",
+    "rag",
+    "sqlite",
+    "fts5"
+  ],
+  "author": "Bsh54",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "better-sqlite3": "^11.10.0",
+    "pino": "^10.3.1",
+    "youtube-transcript": "^1.3.1"
+  }
+}
